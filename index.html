@@ -64,13 +64,18 @@
         /* Hero Section */
         .hero {
             height: 100vh;
-            background: url('hero-image.jpeg') center/cover;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                        url('hero-image.jpeg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
             margin-top: 60px;
+            overflow: hidden;
         }
 
         .hero-content h1 {
@@ -399,7 +404,7 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800" alt="About photographer">
+                    <img src="./profile image.jpeg" alt="About photographer">
                 </div>
                 <div class="about-text">
                     <h2>Hi, I'm Rajesh Acharya</h2>
